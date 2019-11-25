@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+    height: 100%;
+    background:  no-repeat fixed;
+    background-color: black;
+    background-image: url('../img/bg.png');
+    background-size: contain;
+}
+header {
+    background-color: rgb(227,26,35);
+    height: 120px;
+    margin-top: 70px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+.logo {
+    position: relative;
+    top: -65px;
+    left: 50px;
+}
+.stars {
+    position: relative;
+    top: -220px;
+    left: 45px;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content {
+    background-color: rgb(255, 255, 255);
+    width: 62%;
+    margin-left: 19%;
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
