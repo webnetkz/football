@@ -2,8 +2,12 @@
 	margin: 0;
 	padding: 0;
 }
+.nS {
+    text-decoration: none;
+}
 html,
 body {
+    font-family: sans-serif;
     height: 100%;
     background:  no-repeat fixed;
     background-color: black;
@@ -26,6 +30,37 @@ header {
     top: -220px;
     left: 45px;
 }
+.menuItem {
+    position: relative;
+    top: -160px;
+    left: 220px;
+    display: inline;
+    list-style: none;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+.active {
+    font-weight: 700;
+}
+.social {
+    position: relative;
+    top: -232px;
+    left: 78%;
+    width: 22%;
+    height: 120px;
+}
+.socialIcons {
+    box-sizing: border-box;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+    height: 2em;
+    margin-top: 1em;
+    padding-left: 12px;
+}
+.soc {
+    height: 1.5em;
+    padding-top: 4px;
+}
 .wrapper {
 	display: flex;
 	flex-direction: column;
@@ -38,5 +73,25 @@ header {
 	flex: 1 0 auto;
 }
 .footer {
-	flex: 0 0 auto;
+    flex: 0 0 auto;
+    background-color: rgb(227,26,35);
+    height: 240px;
+    width: 62%;
+    margin-left: 19%;
+}
+.logos {
+    background-color: rgb(183,183,183);
+    height: 80px;
+    padding-left: 17%;
+}
+.foo {
+    vertical-align: middle;
+    width: 50px;
+    padding: 10px;
+    line-break: auto;
+}
+.footerLogo {
+    position: relative;
+    top: 20px;
+    left: 44%;
 }
