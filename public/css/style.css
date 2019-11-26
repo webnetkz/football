@@ -197,3 +197,160 @@ h3{
     font-size: 1.2em;
     padding: 10px;
 }
+/* STYLES FOR TEAM PAGE*/
+.teamBlock {
+    margin: 3em 1em;
+}
+.team {
+    height: 340px;
+    float: left;
+    margin-right: 10px;
+}
+.teamText {
+    display: inline;
+}
+.sost {
+    height: 500px;
+    width: 90%;
+    margin-left: 5%;
+    background-color: rgb(244,244,244);
+    padding: 1em;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+td {
+    border-bottom: 1px inset rgb(183,183,183);
+    padding: 5px;
+    height: 50px;
+    text-align: center;
+    font-size: 0.8em;
+    color: rgb(79, 79, 79);
+}
+.t1 {
+    width: 50px;
+}
+.number {
+    height: 18px;
+    width: 18px;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: rgb(144,144,144);
+    color: rgb(255, 255, 255);
+}
+.t2 {
+    width: 80px;
+}
+.t3 {
+    width: 50px;
+}
+.t4 {
+    text-align: left;
+}
+.name {
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.position {
+    padding-top: 3px;
+    font-size: 1em;
+    color: rgb(184,184,184);
+}
+.t6 {
+    width: 90px;
+}
+.year {
+    padding-top: 3px;
+    font-size: 0.8em;
+    color: rgb(184,184,184);
+}
+.t7 {
+    width: 90px;
+}
+.t8 {
+    width: 90px;
+}
+.res {
+    margin-top: 2em;
+}
+.r1 {
+    text-align: left;
+    width: 200px;
+    color: rgb(163, 163, 163);
+}
+.r2 {
+    text-align: right;
+}
+.r3 {
+    width: 20px;
+}
+.r4, .r5 {
+    width: 20px;
+}
+.resN {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(102,152,102);
+    color: rgb(255, 255, 255);
+}
+.r6 {
+    width: 20px;
+}
+.r7 {
+    text-align: left;
+}
+.flagS {
+    width: 1em;
+    text-align: right;
+}
+.r9 {
+    width: 50px;
+}
+.flagB {
+    width: 2em;
+    text-align: right;
+}
+.r10 {
+    text-align: left;
+    width: 100px;
+}
+.tabsHeader {
+    height: 3em;
+    width: 100%;
+    border-bottom: 1px inset rgb(183,183,183);
+}
+.linkTabs {
+    padding: 7px;
+    font-size: 0.8em;
+    text-decoration: none;
+    background-color: rgb(196,196,196);
+    color: rgb(255, 255, 255);
+}
+.tabsActive {
+    background-color: rgb(147, 147, 147);
+}
+.news {
+    padding: 2em;
+}
+.newsImg {
+    float: left;
+    padding-right: 10px;
+}
+h4 {
+    display: inline-block;
+    color: rgb(69,109,206);
+    width: 400px;
+    margin: 20px;
+}
+.timeN {
+    display: inline;
+    font-size: 0.8em;
+    color: rgb(184,184,184);
+    margin: 20px;
+}
+.NN {
+    display: inline;
+    margin: 20px;
+}
