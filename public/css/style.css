@@ -25,6 +25,7 @@ header {
     position: relative;
     top: -65px;
     left: 50px;
+    height: 200px;
 }
 .stars {
     position: relative;
@@ -34,11 +35,12 @@ header {
 .menuItem {
     position: relative;
     top: -160px;
-    left: 220px;
+    left: 210px;
     display: inline;
     list-style: none;
-    padding: 5px;
+    padding: 1px;
     color: rgb(255, 255, 255);
+    letter-spacing: -0.6px;
 }
 .active {
     font-weight: 700;
@@ -47,12 +49,12 @@ header {
     position: relative;
     top: -232px;
     left: 74%;
-    width: 26%;
+    width: 25%;
     height: 120px;
 }
 .socialIcons {
     box-sizing: border-box;
-    width: 75%;
+    width: 90%;
     background-color: rgb(255, 255, 255);
     height: 2em;
     margin-top: 1.5em;
@@ -67,6 +69,7 @@ header {
     width: 90%;
     height: 2em;
     margin-top: 1em;
+    letter-spacing: -0.5px;
 }
 .signIcon {
     vertical-align: middle;
@@ -74,7 +77,7 @@ header {
 }
 .signUp {
     color: rgb(183,183,183);
-    margin-right: 20px;
+    margin-right: 5px;
     cursor: pointer;
 }
 .signIn {
@@ -88,16 +91,16 @@ header {
 }
 .content {
     background-color: rgb(255, 255, 255);
-    width: 62%;
-    margin-left: 19%;
+    width: 66%;
+    margin-left: 17%;
 	flex: 1 0 auto;
 }
 .footer {
     flex: 0 0 auto;
     background-color: rgb(227,26,35);
     height: 240px;
-    width: 62%;
-    margin-left: 19%;
+    width: 66%;
+    margin-left: 17%;
 }
 .logos {
     background-color: rgb(183,183,183);
@@ -126,7 +129,7 @@ header {
 .liv {
     display: inline-block;
     position: relative;
-    width: 40%;
+    width: 44%;
 }
 .liverpool {
     display: block;
@@ -136,36 +139,37 @@ header {
 .hed {
     position: relative;
     display: inline-block;
-    width: 36%;    
+    width: 37%;    
     padding-top: 2em;
     padding-left: 1em;
 }
 .hed > p {
     font-weight: 700;
-    padding-bottom: 5px;
+    padding-bottom: 7px;
 }
 .des {
     position: relative;
     display: inline-block;
-    width: 54%;
+    width: 55%;
 }
 .des > p {
     font-size: 0.9em;
-    padding-bottom: 7px;
+    padding-bottom: 9px;
     padding-left: 5px;
 }
 .flag {
     vertical-align: middle;
-    height: 1.3em;
+    height: 1em;
     margin-right: 3px;
 }
 .antiLiv {
     display: inline-block;
     position: relative;
-    width: 59%;
+    width: 53%;
 }
 .pInd {
     margin-bottom: 2em;
+    padding-right: 1em;
 }
 h3{
     margin-left: 2%;
@@ -336,13 +340,14 @@ td {
 }
 .newsImg {
     float: left;
+    width: 400px;
     padding-right: 10px;
 }
 h4 {
     display: inline-block;
     color: rgb(69,109,206);
-    width: 400px;
-    margin: 20px;
+    width: 300px;
+    margin: 10px;
 }
 .timeN {
     display: inline;
@@ -353,4 +358,7 @@ h4 {
 .NN {
     display: inline;
     margin: 20px;
+}
+hr {
+    margin: 20px auto;
 }
