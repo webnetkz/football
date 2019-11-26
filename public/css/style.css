@@ -75,9 +75,11 @@ header {
 .signUp {
     color: rgb(183,183,183);
     margin-right: 20px;
+    cursor: pointer;
 }
 .signIn {
     color: rgb(255, 255, 255);
+    cursor: pointer;
 }
 .wrapper {
 	display: flex;
@@ -116,6 +118,7 @@ header {
 /* STYLES FOR CONTENT*/
 .hr {
     border: 2px solid rgb(227,26,35);
+    margin: 2em 0;
 }
 .one {
     margin-top: 5em;
@@ -163,4 +166,34 @@ header {
 }
 .pInd {
     margin-bottom: 2em;
+}
+h3{
+    margin-left: 2%;
+    margin-bottom: 2em;
+}
+.video {
+    margin-left: 2%;
+}
+.vi {
+    width: 24%;
+}
+.chat {
+    width: 80%;
+    margin-left: 10%;
+}
+.mes {
+    border: 2px solid rgb(196,196,196);
+    padding: 10px;
+    margin-bottom: 1em;
+}
+.inpMes {
+    width: 97%;
+}
+.btnChat {
+    display: block;
+    margin: 1em auto;
+    background-color: rgb(196,196,196);
+    border: none;
+    font-size: 1.2em;
+    padding: 10px;
 }
